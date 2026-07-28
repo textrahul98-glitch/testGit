@@ -6,7 +6,6 @@ import java.util.List;
 public class Shankar {
 
 	public static void main(String[] args) {
-		public static void main(String[] args) {
 			List<Integer> list = new ArrayList<>();
 			list.add(12);
 			list.add(20);
@@ -16,7 +15,5 @@ public class Shankar {
 			list.add(42);
 			System.out.println(list);
 			list.stream().filter(x->x%2==0).forEach(p->System.out.println(p));
-			
-		}
 	}
 }
