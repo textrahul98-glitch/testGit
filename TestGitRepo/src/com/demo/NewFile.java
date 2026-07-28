@@ -13,7 +13,7 @@ public class NewFile {
 			System.out.println(l1);
 
 			l1.stream().map(i->i/2).forEach(s -> System.out.println(s));
-			l1.stream().filter(i -> (i%2) == 1).forEach(s -> System.out.println(s));
+			l1.stream().filter(i -> (i%3) == 1).forEach(s -> System.out.println(s));
 
 		}
 
