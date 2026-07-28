@@ -10,9 +10,7 @@ public class NewFile {
 			l1.add(7);
 			l1.add(70);
 			l1.add(71);
-			System.out.println(l1);
-
-			l1.stream().map(i->i*i*i).forEach(s -> System.out.println(s));
+			System.out.println(l1)
 			l1.stream().filter(i -> (i%2) == 1).forEach(s -> System.out.println(s));
 		}
 
