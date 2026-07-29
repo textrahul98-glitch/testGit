@@ -13,7 +13,7 @@ public class Shankar {
 			list.add(15);
 			list.add(5);
 			list.add(42);
-			System.out.println(list);
+			System.out.println("Original list : " +list);
 			list.stream().filter(x->x%2==0).forEach(p->System.out.println(p));
 	}
 }
