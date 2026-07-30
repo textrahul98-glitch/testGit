@@ -1,4 +1,4 @@
-package com.demo;
+package Group_C;
 
 public class Shashi {
 		public void main(String[] args) {
