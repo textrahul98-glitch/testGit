@@ -29,7 +29,7 @@ public class Shankar2 {
             stmt.close();
             con.close();
 
-            System.out.println("Execution done");
+            System.out.println("Execution is done");
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
